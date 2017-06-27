@@ -139,6 +139,22 @@ table {
 	mix-blend-mode: multiply;
 }
 
+.ls1 {
+	letter-spacing: -0.013em;
+}
+
+.ls3 {
+	letter-spacing: -0.021em;
+}
+
+.ls4 {
+	letter-spacing: -0.028em;
+}
+
+.lh-title.tiempos {
+	line-height: 1.37;
+}
+
 .bg-animate, .link, .link:active, .link:focus, .link:hover, .link:link, .link:visited {
   -webkit-transition: all .15s ease-in;
   -moz-transition: all .15s ease-in;
@@ -158,13 +174,13 @@ table {
 	clear: both;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 64em) {
 	.flex-wrap-sm {
 		flex-wrap: wrap;
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.bg-lightest-blue-l {
 		background: rgba(210, 251, 249, .5);
 	}
@@ -312,7 +328,7 @@ table {
 .w-12 {
 	width: 100%;
 }
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.w-1-m, .w-1-ns {
 		width: 8.3%;
 	}
@@ -361,7 +377,7 @@ table {
 		width: 100%;
 	}
 }
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.w-1-l {
 		width: 8.3%;
 	}
@@ -429,7 +445,7 @@ table {
 
 /*Typography*/
 body, .maax {
-	font-family: 'Maax', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	font-family: 'Maax', -apple-system, BlinkMacSystemFont, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 }
 
 body {
@@ -470,13 +486,19 @@ body {
 	font-size: 2.2rem;
 }
 
-@media (max-width: 30em) {
+@media (max-width: 44.938em) {
 	.f1.tiempos.number {
 		font-size: 4rem;
 	}
 }
 
-@media (min-width: 30em) {
+@media (max-width: 64em) {
+	.f7 {
+		line-height: 1.25;
+	}
+}
+
+@media (min-width: 44.938em) {
 	.f-headline-ns {
 		font-size: 7.5rem;
 	}
@@ -502,9 +524,10 @@ body {
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
   .f-headline-l {
     font-size: 7.5rem;
+		letter-spacing: -0.021em;
   }
 
 	.f-headline-l.teal {
@@ -524,20 +547,21 @@ body {
 	}
 }
 
+
 /*Global*/
 .page-container {
 	max-width: 1280px;
 	width: 95%;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.page-container-ns {
 		max-width: 1280px;
 		width: 95%;
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.page-container-l {
 		max-width: 1280px;
 		width: 95%;
@@ -545,8 +569,25 @@ body {
 }
 
 .button {
-	padding-top: .75rem;
-	padding-bottom: .75rem;
+	padding-top: .6rem;
+	padding-bottom: .7rem;
+	line-height: 1;
+}
+
+.button.br2 {
+	border-radius: .2rem;
+}
+
+.button.ph4 {
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+}
+
+@media (min-width: 44.938em) {
+	.website-link {
+		position: relative;
+		top: -1px
+	}
 }
 
 .link-border {
@@ -607,7 +648,7 @@ body {
 	}
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.circle svg {
 		position: absolute;
 	}
@@ -687,7 +728,7 @@ body {
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.big-circle--89 {
 		margin-left: inherit;
 		margin-top: 0;
@@ -698,7 +739,12 @@ body {
 }
 
 /*Header*/
-@media (min-width: 60em) {
+@media (max-width: 64em) {
+	nav.f6 {
+		font-size: .75rem;
+	}
+}
+@media (min-width: 64em) {
 	.logo svg {
 		position: relative;
 		left: -74px;
@@ -714,7 +760,7 @@ body {
 	transform: translateX(-70%);
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.heading-circles {
 		top: -45%;
 		left: 1.5em;
@@ -725,7 +771,7 @@ body {
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.heading-circles {
 		top: -65%;
 		left: 230px;
@@ -742,13 +788,13 @@ body {
 	top: -2.5rem;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.our-vision {
 		font-size: 17vw;
 		top: -6.5rem;
 	}
 }
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.our-vision {
 		font-size: 13vw;
 	}
@@ -775,7 +821,7 @@ body {
 	top: 0;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.bottom-content {
 		top: -3rem;
 	}
@@ -784,7 +830,7 @@ body {
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.bottom-content {
 		top: -5rem;
 	}
@@ -817,10 +863,28 @@ body {
 	max-height: 114px;
 	position: relative;
 	left: 50%;
-	-webkit-transform: translateX(-56.9%);
-	-moz-transform: translateX(-56.9%);
-	-o-transform: translateX(-56.9%);
-	transform: translateX(-56.9%);
+	-webkit-transform: translateX(-48%);
+	-moz-transform: translateX(-48%);
+	-o-transform: translateX(-48%);
+	transform: translateX(-48%);
+}
+
+@media (min-width: 44.938em) {
+	.line-divider svg {
+		-webkit-transform: translateX(-45%);
+		-moz-transform: translateX(-45%);
+		-o-transform: translateX(-45%);
+		transform: translateX(-45%);
+	}
+}
+
+@media (min-width: 64em) {
+	.line-divider svg {
+		-webkit-transform: translateX(-56.9%);
+		-moz-transform: translateX(-56.9%);
+		-o-transform: translateX(-56.9%);
+		transform: translateX(-56.9%);
+	}
 }
 
 /*Programs*/
@@ -836,7 +900,7 @@ body {
 	top: -1rem;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.educational-programs {
 		top: -7rem;
 		font-size: 14vw;
@@ -850,7 +914,7 @@ body {
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.educational-programs {
 		top: -7rem;
 		left: -1rem;
@@ -874,7 +938,7 @@ body {
 	left: 0;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.program-logo img {
 		left: -46px;
 	}
@@ -898,6 +962,8 @@ body {
 	-moz-transition: all .2s ease-in;
 	-o-transition: all .2s ease-in;
 	transition: all .2s ease-in;
+	top: .5rem;
+	right: .5rem;
 }
 
 .expand.open {
@@ -905,6 +971,13 @@ body {
 	-moz-transform: rotate(135deg);
 	-o-transform: rotate(135deg);
 	transform: rotate(135deg);
+}
+
+@media (min-width: 44.938em) {
+	.expand {
+		top: 1.5rem;
+		right: 1.5rem;
+	}
 }
 
 /*Footer*/
@@ -918,11 +991,11 @@ body {
 	display: none;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	#insta li:nth-last-child(-n+6) {
 		display: block;
 	}
-	
+
 	.maple-leaf {
 		top: -18rem;
 		left: 0;
@@ -930,7 +1003,7 @@ body {
 	}
 }
 
-@media (min-width: 60em) {
+@media (min-width: 64em) {
 	.maple-leaf {
 		top: -13rem;
 		right: 0;
@@ -946,26 +1019,19 @@ body {
 }
 
 .code-future {
-	font-size: 13vw;
-	top: -6rem;
+	top: -5rem;
+	line-height: .9;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 44.938em) {
 	.code-future {
-		top: -12.75rem;
-	}
-}
-
-@media (min-width: 60em) {
-	.code-future {
-		font-size: 9vw;
 		top: -11.75rem;
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 64em) {
 	.code-future {
-		font-size: 125.55px;
+		top: -11.75rem;
 	}
 }
 
