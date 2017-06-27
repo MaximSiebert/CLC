@@ -143,6 +143,10 @@ table {
 	letter-spacing: -0.013em;
 }
 
+.ls2 {
+	letter-spacing: -0.012em;
+}
+
 .ls3 {
 	letter-spacing: -0.021em;
 }
@@ -796,7 +800,7 @@ body {
 }
 @media (min-width: 64em) {
 	.our-vision {
-		font-size: 13vw;
+		font-size: 13.5vw;
 	}
 }
 
@@ -917,12 +921,12 @@ body {
 @media (min-width: 64em) {
 	.educational-programs {
 		top: -7rem;
-		left: -1rem;
+		left: -.76rem;
 	}
 
 	.educational-programs--right {
 		top: 3rem;
-		right: -.5rem;
+		right: 0;
 		left: inherit;
 	}
 }
