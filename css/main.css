@@ -646,6 +646,10 @@ body {
 	z-index: 4;
 }
 
+.circle-content--french {
+	width: 60%;
+}
+
 @media (max-width: 330px) {
 	.circle-content {
 		margin-left: 130px;
@@ -670,8 +674,12 @@ body {
 		width: 30%;
 	}
 
-	.circle-content {
+	.big-circle .circle-content--french {
 		width: 50%;
+	}
+
+	.circle-content {
+		width: 49%;
 		left: 50%;
 		top: 50%;
 		-webkit-transform: translate(-50%, -50%);
@@ -680,6 +688,10 @@ body {
 		transform: translate(-50%, -50%);
 		z-index: 4;
 		margin-left: 0;
+	}
+
+	.circle-content--french {
+		width: 60%;
 	}
 
 	.small-circle {
