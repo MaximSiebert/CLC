@@ -689,7 +689,7 @@ body {
 	}
 
 	.big-circle .circle-content {
-		width: 30%;
+		width: 33%;
 	}
 
 	.big-circle .circle-content--french {
@@ -697,7 +697,7 @@ body {
 	}
 
 	.circle-content {
-		width: 49%;
+		width: 53%;
 		left: 50%;
 		top: 50%;
 		-webkit-transform: translate(-50%, -50%);
@@ -1010,7 +1010,7 @@ body {
 }
 
 .supporter-circles svg {
-	max-width: 420px;
+	max-width: 660px;
 	max-height: 616px;
 }
 
