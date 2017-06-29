@@ -76,6 +76,7 @@ $(document).ready(function(){
   //On Scroll Animations
   AOS.init({
     offset: 300,
+    disable: window.innerWidth < 1040
   });
 
   var a = 0;
