@@ -681,11 +681,11 @@ body {
 	}
 
 	.big-circle .circle-content {
-		width: 30%;
+		width: 33%;
 	}
 
 	.circle-content {
-		width: 50%;
+		width: 53%;
 		left: 50%;
 		top: 50%;
 		-webkit-transform: translate(-50%, -50%);
