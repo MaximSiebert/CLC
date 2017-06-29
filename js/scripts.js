@@ -9,17 +9,17 @@ $(document).ready(function(){
     var target = $( $(this).attr('href') );
     if( target.length ) {
         event.preventDefault();
-        window.location.hash = $(this).attr("href");
         $('html, body').animate({
             scrollTop: target.offset().top
         }, 1000, easeOutQuad);
+        window.location.hash = $(this).attr("href");
     }
   });
 
-  //Contact
-  $('a[href^="#contact"]').on('click', function(event) {
-    $("html, body").animate({ scrollTop: $(document).height() }, 1000, easeOutQuad);
-  });
+  // //Contact
+  // $('a[href^="#contact"]').on('click', function(event) {
+  //   $("html, body").animate({ scrollTop: $(document).height() }, 1000, easeOutQuad);
+  // });
 
   //Program Accordions
   var expand = $('.expand'),
