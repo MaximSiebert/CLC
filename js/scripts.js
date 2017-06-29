@@ -16,10 +16,10 @@ $(document).ready(function(){
     }
   });
 
-  // //Contact
-  // $('a[href^="#contact"]').on('click', function(event) {
-  //   $("html, body").animate({ scrollTop: $(document).height() }, 1000, easeOutQuad);
-  // });
+  //Contact
+  $('a[href^="#contact"]').on('click', function(event) {
+    $("html, body").animate({ scrollTop: $(document).height() }, 1000, easeOutQuad);
+  });
 
   //Program Accordions
   var expand = $('.expand'),
