@@ -678,6 +678,7 @@ body {
 
 	.big-circle svg {
 		left: 20px;
+		width: 444px;
 	}
 
 	.big-circle .circle-content {
@@ -753,6 +754,7 @@ body {
 	}
 	.big-circle--crop-right {
 		right: 0;
+		bottom: 0;
 	}
 }
 
