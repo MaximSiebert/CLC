@@ -530,7 +530,11 @@ body {
 	}
 
 	.f-headline-ns.teal.number {
-		font-size: 11.57rem;
+		font-size: 11.5rem;
+	}
+
+	.f-headline-ns.teal.number.french {
+		font-size: 10rem;
 	}
 
 	.f3-ns.tiempos {
@@ -660,6 +664,10 @@ body {
 	z-index: 4;
 }
 
+.circle-content--french {
+	width: 60%;
+}
+
 @media (max-width: 330px) {
 	.circle-content {
 		margin-left: 130px;
@@ -685,6 +693,10 @@ body {
 		width: 33%;
 	}
 
+	.big-circle .circle-content--french {
+		width: 50%;
+	}
+
 	.circle-content {
 		width: 53%;
 		left: 50%;
@@ -695,6 +707,10 @@ body {
 		transform: translate(-50%, -50%);
 		z-index: 4;
 		margin-left: 0;
+	}
+
+	.circle-content--french {
+		width: 60%;
 	}
 
 	.small-circle {
@@ -808,21 +824,34 @@ body {
 	top: -2.5rem;
 }
 
+.our-vision--french {
+	font-size: 15vw;
+}
+
 @media (min-width: 44.938em) {
 	.our-vision {
 		font-size: 17vw;
 		top: -6.5rem;
+	}
+	.our-vision--french {
+		font-size: 15vw;
 	}
 }
 @media (min-width: 65em) {
 	.our-vision {
 		font-size: 13.5vw;
 	}
+	.our-vision--french {
+		font-size: 11vw;
+	}
 }
 
 @media (min-width: 1400px) {
 	.our-vision {
 		font-size: 180px;
+	}
+	.our-vision--french {
+		font-size: 162px;
 	}
 }
 
@@ -914,6 +943,10 @@ body {
 	left: 1rem;
 }
 
+.educational-programs--french {
+	font-size: 9vw;
+}
+
 .educational-programs--right {
 	right: 1rem;
 	left: inherit;
@@ -925,6 +958,10 @@ body {
 		top: -7rem;
 		font-size: 14vw;
 		left: 0;
+	}
+
+	.educational-programs--french {
+		font-size: 11vw;
 	}
 
 	.educational-programs--right {
@@ -939,7 +976,6 @@ body {
 		top: -7rem;
 		left: -.76rem;
 	}
-
 	.educational-programs--right {
 		top: 3rem;
 		right: 0;
@@ -950,6 +986,9 @@ body {
 @media (min-width: 1400px) {
 	.educational-programs {
 		font-size: 185px;
+	}
+	.educational-programs--french {
+		font-size: 140px;
 	}
 }
 
