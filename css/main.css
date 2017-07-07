@@ -685,6 +685,10 @@ body {
 		width: 33%;
 	}
 
+	.big-circle .circle-content.circle-content--french {
+		width: 39%;
+	}
+
 	.circle-content {
 		width: 53%;
 		left: 50%;
@@ -695,6 +699,10 @@ body {
 		transform: translate(-50%, -50%);
 		z-index: 4;
 		margin-left: 0;
+	}
+
+	.circle-content.circle-content--french {
+		width: 55%;
 	}
 
 	.small-circle {
